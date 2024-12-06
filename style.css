@@ -6,14 +6,43 @@ body {
   flex-direction: column;
 }
 
-header,
-footer {
-  padding: 16px;
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-header {
-  background-color: transparent;
+header,
+footer {
+  background-color: #1f2937;
+  padding: 16px;
   border: 1px solid #aaa;
+}
+
+.header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #eaeaea;
 }
 
 main {
@@ -21,7 +50,6 @@ main {
 }
 
 footer {
-  background-color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: center;
