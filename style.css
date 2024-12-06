@@ -1,0 +1,29 @@
+body {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  padding: 16px;
+}
+
+header {
+  background-color: transparent;
+  border: 1px solid #aaa;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
