@@ -1,6 +1,10 @@
-body {
-  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,25 +20,21 @@ header,
 footer {
   background-color: #1f2937;
   padding: 16px;
-  border: 1px solid #aaa;
 }
 
-.header {
+header .container {
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
+header h1 {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: flex;
   gap: 16px;
@@ -42,11 +42,54 @@ ul {
 
 ul li a {
   text-decoration: none;
-  color: #eaeaea;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 main {
   flex: 1;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+.hero .container {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text,
+.hero-image {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 5px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #d7d7d7;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 5px;
+  color: #f9faf8;
+  cursor: pointer;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 footer {
