@@ -23,7 +23,7 @@ body {
 header,
 footer {
   background-color: #1f2937;
-  padding: 16px;
+  padding: 24px 0;
 }
 
 header .container {
@@ -60,6 +60,7 @@ main {
 
 .hero .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
 }
@@ -91,8 +92,12 @@ main {
   cursor: pointer;
 }
 
+.hero-image {
+  text-align: right;
+}
+
 .hero img {
-  width: 100%;
+  width: 90%;
   border-radius: 5px;
 }
 
@@ -154,12 +159,41 @@ main {
 
 .testimonial .user {
   text-align: right;
-  /* font-weight: 700; */
+}
+
+/* Call To Action */
+.call-to-action .container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  padding: 50px 20px;
+  border-radius: 5px;
+}
+
+.call-to-action h4 {
+  font-size: 18px;
+  color: #f9faf8;
+  margin-bottom: 5px;
+}
+
+.call-to-action p {
+  color: #e1e1e1;
+}
+
+.call-to-action button {
+  background-color: transparent;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  padding: 8px 24px;
+  color: #f9faf8;
+  font-weight: 700;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #e1e1e1;
 }
