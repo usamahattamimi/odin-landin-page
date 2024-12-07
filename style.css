@@ -58,6 +58,7 @@ main {
   padding: 50px 0;
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 
 .hero-text,
@@ -90,6 +91,49 @@ main {
 .hero img {
   width: 100%;
   border-radius: 5px;
+}
+
+.recipes {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.recipes h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 5px 5px 15px;
+}
+
+.card-content h4 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.card-content p {
+  color: #444;
 }
 
 footer {
